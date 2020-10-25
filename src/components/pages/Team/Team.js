@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "./Team.css";
-
 import { Container, Card } from "react-bootstrap";
 import { TeamData } from "../../../data/team.js";
+import "./Team.css";
 
 class Team extends Component {
   render() {

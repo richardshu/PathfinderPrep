@@ -1,4 +1,71 @@
 .Student {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.Student .banner-img {
+  filter: brightness(60%);
+}
+
+.Student .banner-title {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.animated-text-container-container {
+  overflow: hidden;
+  height: 5rem;
+}
+
+.animated-text-container {
+  animation: change 10s infinite;
+}
+
+.bracket {
+  color: rgb(110, 94, 254);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media screen and (max-width: 767px) {
+  .regular-text {
+    width: 100%;
+  }
+}
+
+/* 
+Math behind the animations:
+
+n: number of animations
+x: time spent on each line
+y: time for animation between each line
+
+n(x + y) = 100% duration
+
+if n = 4 and y = 4, then x = 21
+*/
+
+:root {
+  --num-lines: 4;
+}
+
+@keyframes change {
+  0%,
+  21%,
+  100% {
+    transform: translateY(0);
+  }
+  25%,
+  46% {
+    transform: translateY(calc(-1 * 100% / var(--num-lines)));
+  }
+  50%,
+  71% {
+    transform: translateY(calc(-2 * 100% / var(--num-lines)));
+  }
+  75%,
+  86% {
+    transform: translateY(calc(-3 * 100% / var(--num-lines)));
+  }
 }

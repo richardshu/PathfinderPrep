@@ -9,9 +9,9 @@ class Subjects extends Component {
       <Container>
         <h1 className="section-title">We've got you covered</h1>
         <div className="subjects-container">
-          {SubjectsData.map((subject, index) => {
+          {SubjectsData.map((subject, key) => {
             return (
-              <div className="subject" key={index}>
+              <div className="subject" key={key}>
                 <h4>
                   <Badge variant="light">{subject}</Badge>
                 </h4>

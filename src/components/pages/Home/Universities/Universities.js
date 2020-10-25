@@ -9,9 +9,9 @@ class Universities extends Component {
         <h1 className="section-title">Our tutors attend</h1>
         <div className="carousel-container">
           <div className="carousel">
-            {UniversitiesData.map((university, index) => {
+            {UniversitiesData.map((university, key) => {
               return (
-                <div key={index}>
+                <div key={key}>
                   <span className="uni-helper"></span>
                   <img
                     src={require(`../../../../images/universities/${university}.png`)}

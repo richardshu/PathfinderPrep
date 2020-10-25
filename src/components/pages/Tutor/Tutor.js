@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import "./Tutor.css";
-
 import { Button, Container } from "react-bootstrap";
 import BannerImage from "../../../images/banners/tutor.jpg";
+import "./Tutor.css";
 
 class Tutor extends Component {
   render() {
