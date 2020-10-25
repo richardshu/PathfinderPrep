@@ -1,0 +1,13 @@
+.navbar {
+  /* padding-top: 1em !important; */
+  /* padding-bottom: 1em !important; */
+  background: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 100%)
+  );
+}
+
+.menu-icon {
+  outline: none !important;
+}
