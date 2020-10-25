@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { UniversitiesData } from "../../../../data/universities.js";
 import "./Universities.css";
 
-// import { Container } from "react-bootstrap";
-
 class Universities extends Component {
   render() {
     return (
@@ -16,7 +14,7 @@ class Universities extends Component {
                 <div key={index}>
                   <span className="uni-helper"></span>
                   <img
-                    src={require(`../../../../images/${university}.png`)}
+                    src={require(`../../../../images/universities/${university}.png`)}
                     alt={university}
                     className="uni-logo"
                   />

@@ -12,6 +12,6 @@ export const AchievementsData = [
   "Winner of the National Young Arts Foundation Competition '18",
   "Finalist at the International Clarinet Association Competition",
   "Principal Bassoonist: California All Southern & All State Honor Ensembles",
-  "Principal Horn Player: California All Southern & All State Honor Ensemble",
+  "Principal Horn Player: California All Southern & All State Honor Ensembles",
   "Principal Oboist: National Association for Music Education All-National Honor Ensembles",
 ];

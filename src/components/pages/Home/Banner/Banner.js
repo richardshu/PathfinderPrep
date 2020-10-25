@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, Container } from "react-bootstrap";
 import "./Banner.css";
 
-import BackgroundImage from "../../../../images/bg-home.jpg";
+import BackgroundImage from "../../../../images/banners/home.jpg";
 
 class Banner extends Component {
   render() {

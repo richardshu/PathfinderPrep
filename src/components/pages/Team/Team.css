@@ -1,4 +1,25 @@
 .Team {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  text-align: center;
+}
+
+.page-title {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 1rem;
+}
+
+.tutor-uni {
+  font-weight: bold !important;
+  color: rgb(110, 94, 254);
 }
