@@ -9,3 +9,9 @@
 .subject {
   margin: 0.5rem;
 }
+
+.subject .badge:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(110, 94, 254);
+}

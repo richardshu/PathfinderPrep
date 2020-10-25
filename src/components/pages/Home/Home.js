@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import "./Home.css";
-
 import { Banner, About, Universities, Stats, Subjects, Achievements } from ".";
+import "./Home.css";
 
 class Home extends Component {
   render() {

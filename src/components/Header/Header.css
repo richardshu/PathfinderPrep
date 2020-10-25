@@ -13,6 +13,10 @@
   );
 }
 
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+}
+
 .navbar-brand:hover {
   opacity: 0.8;
 }

@@ -4,22 +4,26 @@
   text-align: center;
 }
 
-.page-title {
+.Team .section-title {
   margin-top: 3rem;
-  margin-bottom: 2rem;
 }
 
-.card-container {
+.Team .card-container {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.card {
+.Team .card {
   margin-bottom: 1rem;
 }
 
-.tutor-uni {
-  font-weight: bold !important;
+.Team .card-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.Team .card-text {
+  font-weight: bold;
   color: rgb(110, 94, 254);
 }

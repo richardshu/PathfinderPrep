@@ -1,10 +1,8 @@
 import React from "react";
-import "./App.css";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import { Header, Footer } from "./components";
 import { Home, Team, Tutor, Student } from "./components/pages";
+import "./App.css";
 
 function App() {
   return (

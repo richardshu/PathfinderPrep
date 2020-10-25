@@ -5,7 +5,7 @@ import "./Universities.css";
 class Universities extends Component {
   render() {
     return (
-      <div>
+      <div className="Universities">
         <h1 className="section-title">Our tutors attend</h1>
         <div className="carousel-container">
           <div className="carousel">

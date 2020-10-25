@@ -23,11 +23,12 @@ footer a {
   color: #585858;
   vertical-align: middle;
   text-decoration: none !important;
-  transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
 }
 
 footer a:hover {
-  color: #f2849e;
+  color: rgb(110, 94, 254);
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
     border-color 0.2s ease-in-out;
 }

@@ -8,7 +8,7 @@ class Team extends Component {
     return (
       <div className="Team">
         <Container>
-          <h1 className="page-title">Our Team</h1>
+          <h1 className="section-title">Our Team</h1>
           <div className="card-container">
             {TeamData.map((tutor, key) => {
               return (
@@ -19,12 +19,8 @@ class Team extends Component {
                     alt={tutor.name}
                   />
                   <Card.Body>
-                    <Card.Title>
-                      <span>{tutor.name}</span>
-                      <br />
-                      <span className="tutor-uni">{tutor.university}</span>
-                    </Card.Title>
-                    <Card.Text></Card.Text>
+                    <Card.Title>{tutor.name}</Card.Title>
+                    <Card.Text>{tutor.university}</Card.Text>
                   </Card.Body>
                 </Card>
               );

@@ -6,8 +6,8 @@ import "./Subjects.css";
 class Subjects extends Component {
   render() {
     return (
-      <Container>
-        <h1 className="section-title">We've got you covered</h1>
+      <Container className="Subjects">
+        <h1 className="section-title">Subjects we teach</h1>
         <div className="subjects-container">
           {SubjectsData.map((subject, key) => {
             return (
