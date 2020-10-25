@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import "./MyNavbar.css";
+import "./Header.css";
 
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Nav, Navbar, NavDropdown} from "react-bootstrap";
 
-class MyNavbar extends Component {
+class Header extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" variant="dark">
@@ -23,7 +21,7 @@ class MyNavbar extends Component {
               id="collapsible-nav-dropdown"
               alignRight
             >
-              <NavDropdown.Item href="./apply">Become a Tutor</NavDropdown.Item>
+              <NavDropdown.Item href="./tutor">Become a Tutor</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="./student">
                 Become a Student
@@ -36,4 +34,4 @@ class MyNavbar extends Component {
   }
 }
 
-export default MyNavbar;
+export default Header;
