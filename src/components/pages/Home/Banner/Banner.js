@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Button, Container } from "react-bootstrap";
 import "./Banner.css";
 
-import BackgroundImage from "../../../../images/banners/home.jpg";
+import BannerImage from "../../../../images/banners/home.jpg";
 
 class Banner extends Component {
   render() {
     return (
       <div className="Banner">
-        <img className="banner-img" src={BackgroundImage} alt="banner" />
+        <img className="banner-img" src={BannerImage} alt="banner" />
         <Container className="banner-text">
           <p className="banner-title">Pathfinder Prep</p>
           <p className="banner-description">

@@ -13,6 +13,7 @@ class Home extends Component {
         <Stats />
         <Subjects />
         {/* <Achievements /> */}
+        <br />
       </div>
     );
   }
