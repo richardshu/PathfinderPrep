@@ -32,3 +32,8 @@
 .banner-btn {
   margin: 0.5rem;
 }
+
+.banner-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}

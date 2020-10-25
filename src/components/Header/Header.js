@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Header.css";
-
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Header.css";
 
 class Header extends Component {
   render() {
@@ -9,7 +9,9 @@ class Header extends Component {
       <div className="Header">
         <Navbar collapseOnSelect expand="lg" variant="dark">
           <Container>
-            <Navbar.Brand href="./">Pathfinder</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/">
+              Pathfinder
+            </Navbar.Brand>
             <Navbar.Toggle
               className="menu-icon"
               aria-controls="responsive-navbar-nav"
@@ -17,17 +19,19 @@ class Header extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto"></Nav>
               <Nav>
-                <Nav.Link href="./team">Our Team</Nav.Link>
+                <Nav.Link as={Link} to="/team">
+                  Our Team
+                </Nav.Link>
                 <NavDropdown
                   title="Join Us"
                   id="collapsible-nav-dropdown"
                   alignRight
                 >
-                  <NavDropdown.Item href="./tutor">
+                  <NavDropdown.Item as={Link} to="/tutor">
                     Become a Tutor
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item href="./student">
+                  <NavDropdown.Item as={Link} to={"/student"}>
                     Become a Student
                   </NavDropdown.Item>
                 </NavDropdown>

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
-import "./Banner.css";
-
 import BannerImage from "../../../../images/banners/home.jpg";
+import "./Banner.css";
 
 class Banner extends Component {
   render() {
@@ -14,22 +14,16 @@ class Banner extends Component {
           <p className="banner-description">
             We'll help you get into the school of your dreams.
           </p>
-          <Button
-            className="banner-btn"
-            variant="outline-light"
-            size="lg"
-            href="./student"
-          >
-            Become a Student
-          </Button>
-          <Button
-            className="banner-btn"
-            variant="outline-light"
-            size="lg"
-            href="./tutor"
-          >
-            Become a Tutor
-          </Button>
+          <Link to="/student">
+            <Button className="banner-btn" variant="outline-light" size="lg">
+              Become a Student
+            </Button>
+          </Link>
+          <Link to="/tutor">
+            <Button className="banner-btn" variant="outline-light" size="lg">
+              Become a Tutor
+            </Button>
+          </Link>
         </Container>
       </div>
     );

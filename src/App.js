@@ -1,24 +1,24 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React, { Component } from "react";
+import { Switch, Route } from "react-router-dom";
 import { Header, Footer } from "./components";
 import { Home, Team, Tutor, Student } from "./components/pages";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Router>
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/team" component={Team} />
           <Route path="/tutor" component={Tutor} />
           <Route path="/student" component={Student} />
         </Switch>
-      </Router>
-      <Footer />
-    </div>
-  );
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default App;
