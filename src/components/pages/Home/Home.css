@@ -1,4 +1,6 @@
-.Home {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.section-title {
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: bold;
 }

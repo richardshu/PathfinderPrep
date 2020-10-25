@@ -1,11 +1,31 @@
+.Header {
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
 .navbar {
-  /* padding-top: 1em !important; */
-  /* padding-bottom: 1em !important; */
   background: linear-gradient(
     90deg,
     rgb(110, 94, 254) 0%,
     rgba(73, 63, 252, 100%)
   );
+}
+
+.navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+
+.nav-link:hover {
+  border-radius: 3rem;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .menu-icon {

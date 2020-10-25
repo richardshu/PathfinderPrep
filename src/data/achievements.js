@@ -1,0 +1,17 @@
+export const AchievementsData = [
+  "Valedictorian",
+  "Student of the year",
+  "Athlete of the year",
+  "National Merit Finalist '19",
+  "Student Body Vice President '19",
+  "Boy's Tennis Varsity Captain '19",
+  "U.S. Biology Olympiad Semi-Finalist '19",
+  "TEDxNYU Speaker '20",
+  "NYU 2020 Computer Science & Engineering Leadership Award",
+  "National Youth Orchestra '19",
+  "Winner of the National Young Arts Foundation Competition '18",
+  "Finalist at the International Clarinet Association Competition",
+  "Principal Bassoonist: California All Southern & All State Honor Ensembles",
+  "Principal Horn Player: California All Southern & All State Honor Ensemble",
+  "Principal Oboist: National Association for Music Education All-National Honor Ensembles",
+];

@@ -1,0 +1,11 @@
+.subjects-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.subject {
+  margin: 0.5rem;
+}

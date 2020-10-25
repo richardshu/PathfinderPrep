@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import "./Home.css";
 
+import { Banner, About, Universities, Stats, Subjects, Achievements } from ".";
+
 class Home extends Component {
-  state = {};
   render() {
     return (
       <div className="Home">
-        <h1>Home Page</h1>
+        <Banner />
+        <About />
+        <Universities />
+        <Stats />
+        <Subjects />
+        {/* <Achievements /> */}
       </div>
     );
   }
