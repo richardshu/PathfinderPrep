@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Button } from "react-bootstrap";
+import { Accordion, Button, Card, Container } from "react-bootstrap";
 import BannerImage from "../../../images/banners/student.jpg";
 import "./Student.css";
 
@@ -33,6 +33,59 @@ class Student extends Component {
           >
             Email Us
           </Button>
+        </Container>
+        <Container className="FAQ">
+          <h1 className="section-title">FAQ</h1>
+          <Accordion>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="0">
+                How much do you charge per hour?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="0">
+                <Card.Body>
+                  We charge a flat rate of $30/hour for any subject, but the
+                  first session is free!
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="1">
+                How do I book a session?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="1">
+                <Card.Body>
+                  Simply email us at{" "}
+                  <a href="mailto:pathfinderpreparation@gmail.com">
+                    pathfinderpreparation@gmail.com
+                  </a>{" "}
+                  and let us know what subject you'd like us to tutor. We'll
+                  match you with a tutor and get to work!
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="2">
+                Can I request a specific tutor?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="2">
+                <Card.Body>
+                  Our tutors are skilled in different areas and have varying
+                  schedules, but we'll do our best to match you with your
+                  preference.
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="3">
+                How does payment work?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="3">
+                <Card.Body>
+                  We accept payments through Zelle, Venmo, or PayPal.
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
         </Container>
       </div>
     );

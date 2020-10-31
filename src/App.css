@@ -37,3 +37,23 @@
   color: #212529;
   text-decoration: none;
 }
+
+/* FAQ sections */
+
+.FAQ {
+  padding-bottom: 2.5rem;
+}
+
+.FAQ .accordion .card-header {
+  cursor: pointer;
+}
+
+.FAQ .accordion .card-header:hover {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 100%)
+  );
+}

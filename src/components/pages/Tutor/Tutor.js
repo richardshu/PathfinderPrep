@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Container } from "react-bootstrap";
+import { Accordion, Button, Card, Container } from "react-bootstrap";
 import BannerImage from "../../../images/banners/tutor.jpg";
 import "./Tutor.css";
 
@@ -22,6 +22,54 @@ class Tutor extends Component {
           >
             Apply
           </Button>
+        </Container>
+        <Container className="FAQ">
+          <h1 className="section-title">FAQ</h1>
+          <Accordion>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="0">
+                Why should I join the organization as a tutor?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="0">
+                <Card.Body>
+                  Pathfinder is an incredibly exciting and growing organization
+                  with an emphasis on donating to charity. We also value your
+                  time and only require you to tutor for the hours you're
+                  assigned.
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="1">
+                How much will I make an hour?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="1">
+                <Card.Body>
+                  We pay our tutors a flat rate of $20/hour.
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Accordion.Toggle as={Card.Header} eventKey="2">
+                Am I the right fit for Pathfinder?
+              </Accordion.Toggle>
+              <Accordion.Collapse eventKey="2">
+                <Card.Body>
+                  We're looking for ambitious college students who have a
+                  passion for helping students and giving back to the community.
+                  Apply{" "}
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://form.typeform.com/to/gt4bAdJW"
+                  >
+                    here
+                  </a>
+                  !
+                </Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
         </Container>
       </div>
     );
