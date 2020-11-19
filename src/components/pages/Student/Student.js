@@ -65,21 +65,9 @@ class Student extends Component {
             </Card>
             <Card>
               <Accordion.Toggle as={Card.Header} eventKey="2">
-                Can I request a specific tutor?
-              </Accordion.Toggle>
-              <Accordion.Collapse eventKey="2">
-                <Card.Body>
-                  Our tutors are skilled in different areas and have varying
-                  schedules, but we'll do our best to match you with your
-                  preference.
-                </Card.Body>
-              </Accordion.Collapse>
-            </Card>
-            <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="3">
                 How does payment work?
               </Accordion.Toggle>
-              <Accordion.Collapse eventKey="3">
+              <Accordion.Collapse eventKey="2">
                 <Card.Body>
                   We accept payments through Zelle, Venmo, or PayPal.
                 </Card.Body>

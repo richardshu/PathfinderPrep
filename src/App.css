@@ -42,6 +42,7 @@
 
 .FAQ {
   padding-bottom: 2.5rem;
+  max-width: 50rem !important;
 }
 
 .FAQ .accordion .card-header {

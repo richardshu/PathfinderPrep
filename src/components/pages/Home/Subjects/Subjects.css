@@ -4,6 +4,9 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .subject {
