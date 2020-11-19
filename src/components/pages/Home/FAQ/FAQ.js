@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Accordion, Card, Container } from "react-bootstrap";
+import AccordionToggle from "../../../AccordionToggle/AccordionToggle";
 import "./FAQ.css";
 
 class FAQ extends Component {
@@ -9,18 +10,18 @@ class FAQ extends Component {
         <h1 className="section-title">FAQ</h1>
         <Accordion>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="0">
+            <AccordionToggle eventKey="0">
               How are you tutoring students during COVID?
-            </Accordion.Toggle>
+            </AccordionToggle>
             <Accordion.Collapse eventKey="0">
               <Card.Body>We tutor students virtually through Zoom.</Card.Body>
             </Accordion.Collapse>
           </Card>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="1">
+            <AccordionToggle eventKey="1">
               What makes Pathfinder unique compared to other test prep and
               tutoring organizations?
-            </Accordion.Toggle>
+            </AccordionToggle>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
                 We're a student-run org with tutors who attend Ivy League and
@@ -32,9 +33,9 @@ class FAQ extends Component {
             </Accordion.Collapse>
           </Card>
           <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="2">
+            <AccordionToggle eventKey="2">
               Where does the money go?
-            </Accordion.Toggle>
+            </AccordionToggle>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
                 For every $30 we make, we pay our tutors $20 and donate the rest

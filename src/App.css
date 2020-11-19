@@ -38,20 +38,17 @@
   text-decoration: none;
 }
 
-/* FAQ sections */
+/* FAQ accordions */
 
 .FAQ {
   padding-bottom: 2.5rem;
   max-width: 50rem !important;
 }
 
-.FAQ .accordion .card-header {
+.accordion-item-active,
+.accordion-item:hover {
   cursor: pointer;
-}
-
-.FAQ .accordion .card-header:hover {
-  cursor: pointer;
-  color: white;
+  color: white !important;
   background: linear-gradient(
     90deg,
     rgb(110, 94, 254) 0%,

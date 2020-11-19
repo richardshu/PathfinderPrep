@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Accordion, Button, Card, Container } from "react-bootstrap";
+import AccordionToggle from "../../AccordionToggle/AccordionToggle";
 import BannerImage from "../../../images/banners/tutor.jpg";
 import "./Tutor.css";
 
@@ -27,9 +28,9 @@ class Tutor extends Component {
           <h1 className="section-title">FAQ</h1>
           <Accordion>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="0">
+              <AccordionToggle as={Card.Header} eventKey="0">
                 Why should I join the organization as a tutor?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
                   Pathfinder is an incredibly exciting and growing organization
@@ -40,9 +41,9 @@ class Tutor extends Component {
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="1">
+              <AccordionToggle as={Card.Header} eventKey="1">
                 How much will I make an hour?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>
                   We pay our tutors a flat rate of $20/hour.
@@ -50,9 +51,9 @@ class Tutor extends Component {
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="2">
+              <AccordionToggle as={Card.Header} eventKey="2">
                 Am I the right fit for Pathfinder?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="2">
                 <Card.Body>
                   We're looking for ambitious college students who have a

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Accordion, Button, Card, Container } from "react-bootstrap";
+import AccordionToggle from "../../AccordionToggle/AccordionToggle";
 import BannerImage from "../../../images/banners/student.jpg";
 import "./Student.css";
 
@@ -38,9 +39,9 @@ class Student extends Component {
           <h1 className="section-title">FAQ</h1>
           <Accordion>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="0">
+              <AccordionToggle as={Card.Header} eventKey="0">
                 How much do you charge per hour?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
                   We charge a flat rate of $30/hour for any subject, but the
@@ -49,9 +50,9 @@ class Student extends Component {
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="1">
+              <AccordionToggle as={Card.Header} eventKey="1">
                 How do I book a session?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>
                   Simply email us at{" "}
@@ -64,9 +65,9 @@ class Student extends Component {
               </Accordion.Collapse>
             </Card>
             <Card>
-              <Accordion.Toggle as={Card.Header} eventKey="2">
+              <AccordionToggle as={Card.Header} eventKey="2">
                 How does payment work?
-              </Accordion.Toggle>
+              </AccordionToggle>
               <Accordion.Collapse eventKey="2">
                 <Card.Body>
                   We accept payments through Zelle, Venmo, or PayPal.
