@@ -26,6 +26,7 @@ class Header extends Component {
                   title="Join Us"
                   id="collapsible-nav-dropdown"
                   alignRight
+                  renderMenuOnMount
                 >
                   <NavDropdown.Item eventKey={2} as={Link} to="/tutor">
                     Become a Tutor

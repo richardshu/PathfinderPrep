@@ -35,3 +35,14 @@
 .menu-icon {
   outline: none !important;
 }
+
+/* show dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: black !important;
+  background-color: #f7f7f7 !important;
+}
