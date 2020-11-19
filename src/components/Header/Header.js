@@ -19,7 +19,7 @@ class Header extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="mr-auto"></Nav>
               <Nav>
-                <Nav.Link as={Link} to="/team">
+                <Nav.Link eventKey={1} as={Link} to="/team">
                   Our Team
                 </Nav.Link>
                 <NavDropdown
@@ -27,11 +27,11 @@ class Header extends Component {
                   id="collapsible-nav-dropdown"
                   alignRight
                 >
-                  <NavDropdown.Item as={Link} to="/tutor">
+                  <NavDropdown.Item eventKey={2} as={Link} to="/tutor">
                     Become a Tutor
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item as={Link} to={"/student"}>
+                  <NavDropdown.Item eventKey={3} as={Link} to={"/student"}>
                     Become a Student
                   </NavDropdown.Item>
                 </NavDropdown>
