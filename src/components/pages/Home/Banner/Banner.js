@@ -12,7 +12,7 @@ class Banner extends Component {
         <Container className="banner-text">
           <p className="banner-title">Pathfinder Prep</p>
           <p className="banner-description">
-            We'll help you get into the school of your dreams.
+            We'll prep you for the school of your dreams.
           </p>
           <Link to="/student">
             <Button className="banner-btn" variant="outline-light" size="lg">
