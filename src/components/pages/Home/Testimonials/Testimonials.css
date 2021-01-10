@@ -1,0 +1,22 @@
+.Testimonials .testimonials-outer-container {
+  background-color: #f6f6f6;
+}
+
+.Testimonials .testimonials-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+.Testimonials .testimonial {
+  width: 30rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Testimonials .quote {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: none;
+}

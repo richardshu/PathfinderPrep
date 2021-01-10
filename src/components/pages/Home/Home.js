@@ -5,6 +5,7 @@ import {
   Universities,
   Stats,
   Subjects,
+  Testimonials,
   Achievements,
   FAQ,
 } from ".";
@@ -19,6 +20,7 @@ class Home extends Component {
         <Universities />
         <Stats />
         <Subjects />
+        <Testimonials />
         {/* <Achievements /> */}
         <FAQ />
         <br />
