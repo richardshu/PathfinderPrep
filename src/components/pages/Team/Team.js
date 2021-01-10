@@ -12,7 +12,7 @@ class Team extends Component {
           <div className="card-container">
             {TeamData.map((tutor, key) => {
               return (
-                <Card key={key} style={{ width: "18rem" }}>
+                <Card key={key}>
                   <Card.Img
                     variant="top"
                     src={require(`../../../images/tutors/${tutor.id}.jpg`)}
