@@ -4,7 +4,9 @@ export const UniversitiesData = [
   "brown",
   "berkeley",
   "ucla",
+  "vanderbilt",
   "pomona",
   "nyu",
   "juilliard",
+  "wellesley",
 ];
