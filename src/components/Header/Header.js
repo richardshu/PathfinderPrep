@@ -28,12 +28,12 @@ class Header extends Component {
                   alignRight
                   renderMenuOnMount
                 >
-                  <NavDropdown.Item eventKey={2} as={Link} to="/tutor">
-                    Become a Tutor
+                  <NavDropdown.Item eventKey={2} as={Link} to={"/student"}>
+                    Become a Student
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
-                  <NavDropdown.Item eventKey={3} as={Link} to={"/student"}>
-                    Become a Student
+                  <NavDropdown.Item eventKey={3} as={Link} to="/tutor">
+                    Become a Tutor
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>

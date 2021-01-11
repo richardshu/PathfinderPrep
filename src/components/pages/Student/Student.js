@@ -30,9 +30,9 @@ class Student extends Component {
             className="banner-btn"
             variant="outline-light"
             size="lg"
-            href="mailto:pathfinderpreparation@gmail.com"
+            href="https://pathfinderpreparation.typeform.com/to/bq069dEj"
           >
-            Email Us
+            Sign Up
           </Button>
         </Container>
         <Container className="FAQ">
@@ -55,12 +55,12 @@ class Student extends Component {
               </AccordionToggle>
               <Accordion.Collapse eventKey="1">
                 <Card.Body>
-                  Simply email us at{" "}
-                  <a href="mailto:pathfinderpreparation@gmail.com">
-                    pathfinderpreparation@gmail.com
+                  Simply fill out our{" "}
+                  <a href="https://pathfinderpreparation.typeform.com/to/bq069dEj">
+                    form
                   </a>{" "}
-                  and let us know what subject you'd like us to tutor. We'll
-                  match you with a tutor and get to work!
+                  that takes 1 minute. We'll match you with a tutor and get to
+                  work!
                 </Card.Body>
               </Accordion.Collapse>
             </Card>
