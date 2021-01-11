@@ -1,3 +1,8 @@
+.Stats {
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+}
+
 .stats-container {
   text-align: center;
   display: flex;

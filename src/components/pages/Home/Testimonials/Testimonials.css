@@ -1,12 +1,9 @@
-.Testimonials .testimonials-outer-container {
-  background-color: #f6f6f6;
-}
-
-.Testimonials .testimonials-inner-container {
+.Testimonials .testimonials-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .Testimonials .testimonial {

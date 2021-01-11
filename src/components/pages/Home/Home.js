@@ -18,9 +18,9 @@ class Home extends Component {
         <Banner />
         <About />
         <Universities />
+        <Testimonials />
         <Stats />
         <Subjects />
-        <Testimonials />
         {/* <Achievements /> */}
         <FAQ />
         <br />
