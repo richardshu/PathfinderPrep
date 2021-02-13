@@ -25,7 +25,7 @@ export const TeamData = [
     id: "karyn-how",
     name: "Karyn How",
     university: "UCLA '23",
-    major: "Human Biology and Society",
+    major: "Pre-Human Biology and Society",
   },
   {
     id: "jeffrey-huynh",
@@ -36,13 +36,13 @@ export const TeamData = [
     id: "clara-kim",
     name: "Clara Kim",
     university: "Wellesley '23",
-    major: "Data Science (Molecular Bioinformatics) and Mathematics",
+    major: "Data Science (Bioinformatics)",
   },
   {
     id: "jay-kuo",
     name: "Jay Kuo",
     university: "Vanderbilt '23",
-    major: "Mathematics",
+    major: "Violin Performance and Mathematics; Economics Minor",
   },
   {
     id: "kevin-lin",
@@ -60,6 +60,7 @@ export const TeamData = [
     id: "patrick-ma",
     name: "Patrick Ma",
     university: "UCLA '23",
+    major: "Pre-Human Biology and Society",
   },
   {
     id: "isaac-no",
@@ -78,7 +79,7 @@ export const TeamData = [
     name: "Doah Shin",
     university: "Vanderbilt '23",
     major:
-      "Medicine, Health, and Society and Child Development; Neuroscience Minor",
+      "Child Development and Medicine, Health, & Society; Neuroscience Minor",
   },
   {
     id: "richard-shu",

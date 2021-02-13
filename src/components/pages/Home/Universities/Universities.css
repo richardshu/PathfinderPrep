@@ -23,13 +23,13 @@
   }
 } */
 
-.uni-helper {
+.Universities .uni-helper {
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 
-.uni-logo {
+.Universities .uni-logo {
   max-height: 10rem;
   max-width: 10rem;
 }

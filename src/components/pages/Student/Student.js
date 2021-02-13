@@ -30,11 +30,13 @@ class Student extends Component {
             className="banner-btn"
             variant="outline-light"
             size="lg"
+            target="_blank"
             href="https://pathfinderpreparation.typeform.com/to/bq069dEj"
           >
             Sign Up
           </Button>
         </Container>
+
         <Container className="FAQ">
           <h1 className="section-title">FAQ</h1>
           <Accordion>
@@ -59,7 +61,7 @@ class Student extends Component {
                   <a href="https://pathfinderpreparation.typeform.com/to/bq069dEj">
                     form
                   </a>{" "}
-                  that takes 1 minute. We'll match you with a tutor and get to
+                  which takes 1 minute. We'll match you with a tutor and get to
                   work!
                 </Card.Body>
               </Accordion.Collapse>
