@@ -46,8 +46,8 @@ class Student extends Component {
               </AccordionToggle>
               <Accordion.Collapse eventKey="0">
                 <Card.Body>
-                  We charge a flat rate of $30/hour for any subject, but the
-                  first session is free!
+                  We charge different rates for different subject, but the first
+                  session is free!
                 </Card.Body>
               </Accordion.Collapse>
             </Card>

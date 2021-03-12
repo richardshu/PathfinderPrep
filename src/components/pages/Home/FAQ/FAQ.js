@@ -38,8 +38,8 @@ class FAQ extends Component {
             </AccordionToggle>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
-                For every $30 we make, we pay our tutors $20 and donate the rest
-                to charity.
+                The majority goes towards paying our tutors, but we donate the
+                rest to charity!
               </Card.Body>
             </Accordion.Collapse>
           </Card>
