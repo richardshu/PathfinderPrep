@@ -7,6 +7,6 @@ export const TestimonialsData = [
   {
     person: "Alice P.",
     testimonial:
-      "Pathfinder Prep is a great program that improved my essays for AP English Language and Composition as well as the SAT reading and writing sections. My tutor was very focused and came prepared for each lesson with a plan. He was able to find my weaknesses and strenghten them through each lesson. I highly recommmend this program to all students looking to improve upon their academics.",
+      "Pathfinder Prep is a great program that improved my essays for AP English Language and Composition as well as the SAT reading and writing sections. My tutor was very focused and came prepared for each lesson with a plan. He was able to find my weaknesses and strengthen them through each lesson. I highly recommmend this program to all students looking to improve upon their academics.",
   },
 ];
