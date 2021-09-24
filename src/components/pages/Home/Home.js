@@ -6,7 +6,6 @@ import {
   Stats,
   Subjects,
   Testimonials,
-  Achievements,
   FAQ,
 } from ".";
 import "./Home.css";
@@ -21,7 +20,6 @@ class Home extends Component {
         <Testimonials />
         <Stats />
         <Subjects />
-        {/* <Achievements /> */}
         <FAQ />
         <br />
       </div>
